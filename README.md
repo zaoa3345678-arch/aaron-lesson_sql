@@ -14,3 +14,10 @@
 . git commit -m 'init readme.md'
 . git status #check untracked file or folder
 . git log --oneline
+
+- push local Git to cloud GitHub
+. browse GitHub
+. login GitHub
+. Create new repository
+. copy the instruction*3 and paste to VS code terminal
+. execute
