@@ -21,3 +21,27 @@
 . Create new repository
 . copy the instruction*3 and paste to VS code terminal
 . execute
+
+- DB initialization
+. create a new file 'product_info.db'
+. create new table
+. table name = product_info
+. add new column: id, name, version, remark
+
+#SELECT
+SELECT id, name FROM product_info
+WHERE id='2';
+
+#INSERT
+INSERT INTO "main"."product_info"
+("name", "version", "remark")
+VALUES ('Laptop', 'ASUS', 'I love ASUS');
+
+#UPDATE
+UPDATE product_info
+SET name = 'iPhone', version='18.3'
+WHERE id=1;
+
+#DELETE
+DELETE FROM product_info
+WHERE id=3;
